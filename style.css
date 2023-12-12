@@ -1,7 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'roboto', 'Times New Roman', Times, serif
+    font-family: 'roboto', 'Times New Roman', Times, serif;
+
 }
 
 header {
@@ -9,12 +10,16 @@ header {
     justify-content: space-between;
     background-color: #1f2937;
     margin: 0;
-    padding: 0;
+    padding: 0 100px;
+    height: 150px;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 10px;
 }
 
 ul {
@@ -39,15 +44,68 @@ a {
 .first {
     display: flex;
     background-color: #1f2937;
+    padding: 0 100px;
+    gap: 40px;
+    height: 300px;
+}
+
+.opening {
+    flex-wrap: wrap;
+    flex: 2;
+    margin: 0;
+    margin-top: -50px;
 }
 
 h1 {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: 1000;
+    font-weight: 900;
 }
 
 .opentext {
     font-size: 18px;
     color: #E5E7EB;
+    margin-top: -25px;
+}
+
+.button {
+    background-color:#3882F6;
+    color: #E5E7EB;
+    font-weight: 700;
+    width: 120px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+}
+
+.openpic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 200px;
+    background-color: gray;
+    flex: 0 0 auto;
+    
+}
+
+.picfill {
+    color: #E5E7Eb;
+}
+
+
+.second {
+}
+
+.topics {
+    display: flex;
+}
+
+.third {
+}
+
+.fourth {
+}
+
+.footer {
 }
