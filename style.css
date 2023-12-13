@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     font-family: 'roboto', 'Times New Roman', Times, serif;
     font-size: 18px;
+    margin: 0;
 }
 
 header {
@@ -110,10 +111,14 @@ h2 {
 }
 
 .third {
+    display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
     min-height: 400px;
     justify-content: center;
     align-items: center;
+    padding: 60px 150px; 
+    margin: 0;
 }
 
 .third blockquote {
@@ -124,7 +129,13 @@ h2 {
 }
 
 .third footer {
+    align-self: flex-end;
+ 
+}
+
+.third footer {
     font-weight: bold;
+    padding-right: 70px;    
 }
 .fourth {
     min-height: 400px;
