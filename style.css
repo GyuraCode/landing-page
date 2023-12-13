@@ -41,7 +41,9 @@ a {
 
 .first {
     display: flex;
+    justify-content: center;
     background-color: #1f2937;
+    flex-wrap: wrap;
     padding: 0 100px;
     gap: 40px;
     min-height: 300px;
@@ -75,22 +77,12 @@ button {
     border-radius: 10px;
     margin-bottom: 60px;
 }
-/* to do: make image keep aspect ratio */
-.openpic {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 400px;
-    height: 200px;
-    background-color: gray;
-    
-    
-}
 
-.picfill {
-    color: #E5E7Eb;
+.first img {
+    margin-top: -60px;
+    margin-bottom: 50px;
+    align-self: center;
 }
-
 
 .second {
     display: flex;
